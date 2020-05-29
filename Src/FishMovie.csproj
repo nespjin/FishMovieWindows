@@ -22,10 +22,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Images\fish_logo.png" />
     <None Remove="Resources\Images\ic_close.png" />
     <None Remove="Resources\Images\ic_close.svg" />
+    <None Remove="Resources\Images\ic_close_16.png" />
     <None Remove="Resources\Images\ic_minus.png" />
+    <None Remove="Resources\Images\ic_minus_16.png" />
     <None Remove="Resources\Images\logo_512.png" />
+    <None Remove="Resources\logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,11 +37,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Images\fish_logo.png" />
     <Resource Include="Resources\Images\ic_close.png" />
+    <Resource Include="Resources\Images\ic_close_16.png" />
     <Resource Include="Resources\Images\ic_minus.png" />
+    <Resource Include="Resources\Images\ic_minus_16.png" />
     <Resource Include="Resources\Images\logo_512.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Resources\logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
